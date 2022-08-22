@@ -1,2 +1,2 @@
 # TECHREZA
-Object Detection Game Using OpenCV And Voice Automation
+Object Detection Game - OpenCV - Voice Automation
