@@ -161,7 +161,7 @@ while hl=="1":
 
     #LOBE CODE
     # Get response from POST request
-    response = requests.post(url="http://localhost:38101/v1/predict/bf372681-9a87-4062-aaa8-cafad892f96f",json={"image": image_string},)
+    response = requests.post(url=love_connect_url,json={"image": image_string},)
     data = response.json()
 
     top_prediction = data["predictions"][0]
